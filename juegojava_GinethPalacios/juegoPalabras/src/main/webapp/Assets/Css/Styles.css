@@ -1,0 +1,72 @@
+body 
+{
+    background-image:url("../img/fondo.png");
+}
+*{
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+body{
+    background: linear-gradient();
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 500px;
+    background-color: black;
+    border: 3px solid ;
+    color: azure;
+    padding: 7px;
+}
+h2{
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#palabra{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.letra{
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    text-align: center;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.pintar{
+    background-color: brown;
+}
+.pintarError{
+    background-color: bisque;
+}
+h3{
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 20px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+button:hover{
+    background-color: aquamarine;
+}
